@@ -1,11 +1,3 @@
-// window.addEventListener('scroll', () => {
-//     document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-// }, false)
-
-// alert(document.body.offsetHeight)
-// alert(-document.body.getBoundingClientRect().top)
-
-
 let nav = document.querySelector('.nav')
 
 document.addEventListener('scroll', () => {
