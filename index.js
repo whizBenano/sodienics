@@ -5,10 +5,11 @@
 // alert(document.body.offsetHeight)
 // alert(-document.body.getBoundingClientRect().top)
 
+
 let nav = document.querySelector('.nav')
 
 document.addEventListener('scroll', () => {
-    if(-document.body.getBoundingClientRect().top >= 800) {
+    if(-document.body.getBoundingClientRect().top >= 700) {
         nav.style.backgroundColor = 'black'
         nav.style.opacity = 0.7
     }
